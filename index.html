@@ -161,6 +161,32 @@ Software, Hardware, DSP" />
 					  </div>
 					</div>
 				</div>
+               <div class="clearfix"> </div>
+            </div>
+			<!--pagenation strat here
+		    <div class="pag-nations">
+				<ul class="p_n-list">
+					<li><span class="list-bar next"> </span></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a class="active" href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+					<li><a href="#">10</a></li>
+					<li><span class="list-bar prev"> </span></li>
+					<div class="clearfix"> </div>
+				</ul>
+		    </div> -->
+	  </div>
+	</div>
+<!--header right start here-->
+	   <div class="col-md-7 header-right">
+	       <div class="header-right-blc1">
+		   
+		   
             	<div class="col-md-6 weather">
             		<div class="weather-top">
             			<div class="weather-time">
@@ -215,136 +241,17 @@ Software, Hardware, DSP" />
 								</div>
 						<!-- end calender  ---->
 			       </div>
-            	</div>
-               <div class="clearfix"> </div>
-            </div>
-			<!--pagenation strat here-->
-		    <div class="pag-nations">
-				<ul class="p_n-list">
-					<li><span class="list-bar next"> </span></li>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a class="active" href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#">6</a></li>
-					<li><a href="#">7</a></li>
-					<li><a href="#">8</a></li>
-					<li><a href="#">10</a></li>
-					<li><span class="list-bar prev"> </span></li>
-					<div class="clearfix"> </div>
-				</ul>
-		    </div>
-<!--header-left colum3 start here--> 
-            <div class="selet-buttons">
-            	<div class="col-md-6 select-btn-left">
-            		<div class="switches-check">
-						 <div class="col-md-6 radio-btn">
-						 	<span class="radio-circle">
-							  <input type="radio" id="radio01" name="radio" />
-							  <label for="radio01"><i></i>Normal</label>
-							</span>
-							<span class="radio-circle">
-							  <input type="radio" id="radio02" name="radio" />
-							  <label for="radio02"><i></i>Hover</label>
-							</span>
-							<span class="radio-circle">
-							  <input type="radio" id="radio03" name="radio" checked=""/>
-							  <label for="radio03"><i></i>Click</label>
-							</span>
-						 </div>
-						 <div class="col-md-6 check-box">
-						 	 <p><span class="col_checkbox">
-							    <input id="0" class="css-checkbox0" type="checkbox" >
-							    <label for="0" name="demo_lbl_0" class="css-label0"><i class="chk-text">Normal</i></label>
-					         </span></p>
-						     <p><span class="col_checkbox">
-							    <input id="1" class="css-checkbox1" type="checkbox" >
-							    <label for="1" name="demo_lbl_1" class="css-label1"><i class="chk-text">Hover</i></label>
-					         </span></p>
-					         <p><span class="col_checkbox">
-								<input id="2" class="css-checkbox2" type="checkbox" checked="">
-								<label for="2" name="demo_lbl_2" class="css-label2"><i class="chk-text">Click</i> </label>
-						 	 </span></p>
-						 </div>
-					</div>
-						<div class="clearfix"> </div>
-						<div class="toggle-top">
-								<div class="tog-1">									
-								  	<div class="switch tog-2">
-										<input type="checkbox" checked="">
-										<label><i> </i></label>
-							      	</div>	
-							   </div>
-							   <div class="tog-2">									
-								  	<div class="switch tog-2 tog-3">
-										<input type="checkbox" >
-										<label><i> </i></label>
-							      	</div>	
-							   </div>
-						    <div class="clearfix"> </div>
-					 </div>
-						
-				</div>
-            	<div class="col-md-6 select-btn-rit">
-            		<div class="drop-down">
-						 <ul class="menu">
-							<li class="item1"><a href="#">Lorem ipsum dolor<i class="drop-dot"> </i> </a>
-								<ul class="cute">
-									<li class="subitem1"><a href="#">Inbox </a></li>
-									<li class="subitem2"><a href="#">Sent </a></li>
-									<li class="subitem3"><a href="#">Draft </a></li>
-									<li class="subitem3"><a href="#">Trash</a></li>
-								</ul>
-							</li>		
-							<li class="item2"><a href="#" class="">Lorem ipsum dolor<i class="drop-dot"> </i></a>
-								<ul class="cute" style="display: none;">
-									<li class="subitem1"><a href="#">Inbox </a></li>
-									<li class="subitem2"><a href="#">Sent </a></li>
-									<li class="subitem3"><a href="#">Draft </a></li>
-									<li class="subitem3"><a href="#">Trash</a></li>
-								</ul>
-							</li>
-						</ul>
-								<!--initiate accordion-->
-						<script type="text/javascript">
-							$(function() {
-							    var menu_ul = $('.menu > li > ul'),
-							           menu_a  = $('.menu > li > a');
-							    menu_ul.hide();
-							    menu_a.click(function(e) {
-							        e.preventDefault();
-							        if(!$(this).hasClass('active')) {
-							            menu_a.removeClass('active');
-							            menu_ul.filter(':visible').slideUp('normal');
-							            $(this).addClass('active').next().stop(true,true).slideDown('normal');
-							        } else {
-							            $(this).removeClass('active');
-							            $(this).next().stop(true,true).slideUp('normal');
-							        }
-							    });
-							
-							});
-						</script>
-					</div>
-            	</div>
-               <div class="clearfix"> </div>
-	     </div>
-	   </div>
-	</div>
-<!--header right start here-->
-	   <div class="col-md-7 header-right">
-	       <div class="header-right-blc1">
-			   <div class="col-md-6 joker-rows">
+            	</div>		   
+			    <div class="col-md-6 joker-rows">
 				   <div class="mask-img">
 					  <div class="bridge-city">
-					 	<img src="images/joker.png" alt="">
+					 	<img src="raw/vitaliti-kit.jpg" alt="">
 					  </div>
 					  <div class="avari-info">
-					 	<h2>Lorem ipsum</h2>
-					 	<p>Libero tempore</p>
-					 	<p>cum soluta</p>
-					 	<p>impedit minus</p>
+					 	<h2>XPrize Tricorder</h2>
+					 	<p>Medical Grade Wearable</p>
+					 	<p>Mobile Software</p>
+					 	<p>DSP Algorithmsd</p>
 					  </div>
 					  <div class="joker-block">
 					  	  <div class="col-md-4 views">
