@@ -832,8 +832,8 @@ ul.nav.navbar-nav {
 .views {
   background: #7BA4D9;
   padding: 0.63em 0.5em;
-  border-top: 3px solid #D66612;
-  border-right: 1px solid #D66612;
+  border-top: 3px solid #002a5a;
+  border-right: 1px solid #002a5a;
 }
 .joker-text {
   float: left;
@@ -927,11 +927,11 @@ span.glyphicon.glyphicon-comment {
 }
 .message {
  padding: 0.8em 0.5em;
-   border-right: 1px solid #D66612;
+   border-right: 1px solid #002a5a;
 }
 .newsletter-bottom {
   background: #7BA4D9;
-  border-top:3px solid #D66612;
+  border-top:3px solid #002a5a;
 }
 .message-text h4 {
   font-size: 0.85em;
@@ -974,11 +974,11 @@ span.glyphicon.glyphicon-trash {
 }
 .skills-bottom {
   background: #7BA4D9;
-  border-top:3px solid #D66612;
+  border-top:3px solid #002a5a;
 }
 .skills-grid {
   padding: 0.65em 0.5em;
-  border-right: 1px solid #D66612;
+  border-right: 1px solid #002a5a;
 }
 .skill-grd-img-chat {
   float: right;
