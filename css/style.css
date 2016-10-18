@@ -38,172 +38,10 @@ a:hover {
     color:#7BA4D9;
     text-decoration:none;
 }
-/*--
-.head-menu {
-  float: left;
-  width: 37%;
-}
-.head-menu ul {
-  padding: 0em;
-  list-style: none; 
-}
-.head-menu ul li {
-  display: inline-block;
-  float: left;
-    line-height: 0.9em;
-}
-span.glyphicon.glyphicon-eye-open {
-  background: #002a5c;
-  padding: 0.8em;
-  color: #7d91a3;
-  font-size: 1em;
-  border-radius: 3px 0px 0px 3px;
-  
-}
-span.glyphicon.glyphicon-heart{
-  background: #7BA4D9;
-  padding: 0.8em;
-  color:#fff;
-  font-size: 1em;
- 
-}
-span.glyphicon.glyphicon-camera{
-  background: #002a5c;
-  padding: 0.8em;
-  color: #7d91a3;
-  font-size: 1em;
-  
-}
-span.glyphicon.glyphicon-time{
-  background: #002a5c;
-  padding: 0.8em;
-  color: #7d91a3;
-  font-size: 1em;
-  
-}
-span.glyphicon.glyphicon-cog{
-  background: #002a5c;
-  padding: 0.8em;
-  color: #7d91a3;
-  font-size: 1em;
-  border-radius: 0px 3px 3px 0px;
-  
-}
-span.glyphicon.glyphicon-eye-open:hover{
-  background: #7BA4D9;
-  color:#fff;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  
-}
-span.glyphicon.glyphicon-heart:hover{
-  background:#002a5c;
-  color:#7d91a3;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-   
-}
-span.glyphicon.glyphicon-camera:hover{
-  background: #7BA4D9;
-  color:#fff;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  
-}
-span.glyphicon.glyphicon-time:hover{
-  background: #7BA4D9;
-  color:#fff;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  
-}
-span.glyphicon.glyphicon-cog:hover{
-  background: #7BA4D9;
-  color:#fff;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  
-}
-.head-tags ul {
-  padding: 0em;
-  list-style: none;
-  float: right;
-  width:70%;
-}
-.head-tags ul li {
-  display: inline-block;
-  margin:0% 10% 0% 0%;
-  vertical-align: middle;
-}
-.head-tags ul li.plus-img {
-  margin: 0%;
-}
-.flat {
-  padding: 0.25em 0.8em 0.25em 0.8em;
-  background: #002a5c;
-  border-radius: 3px;
-  float: left;
-  width: 26%;
-  margin: 0em 0.3em 0em 0em;
-}
-.flat p {
-  font-size: 1em;
-  color: #fff;
-  float: left;
-  width:45%;
-  font-family: 'Lato', sans-serif;
-  
-}
-span.glyphicon.glyphicon-remove {
-  float: right;
-  color: #fff;
-  width: 27%;
-  cursor: pointer;
-  font-size: 0.75em;
-  margin: 0.3em 0em 0em 0em;
-    
-}
-.head-tags ul li a {
-  color: #fff;
-  font-size: 0.9em;
-  background: #002a5c;
-  padding: 0.4em 1em;
-  border-radius: 3px;
-    display: block;
-  font-family: 'Lato', sans-serif;
-}
-.head-tags ul li a.clean-btn{
-	
-}
-.head-tags ul li a:hover{
-  text-decoration:none;
-  background:#7BA4D9;
-}
-.head-tags {
-  float: right;
-  width: 58%;
-   padding: 0px;
-  text-align:right;
-}
-.header-main {
-  padding: 1em 0em 4em 0em;
-}
 
---*/
 ul.bullets{
 	padding-left: 20px;
 	list-style-type: disc;
-
 }
 
 /*--pagenation start here--*/
@@ -356,7 +194,10 @@ span.cloud-sun {
   padding: 0em 0em 0em 0em;
 }
 .calgaman {
-  padding-right: 0px;
+  background: #fff;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 /*--radio start here--*/
 /*----*/
@@ -888,7 +729,7 @@ span.glyphicon.glyphicon-comment {
 .newsletter {
   background: #fff;
   margin-top: 1.5em;
-   border-radius: 4px 4px 0px 0px;
+  border-radius: 4px 4px 0px 0px;
 }
 .newsletter-top {
   padding: 1.3em 1.3em;
@@ -1327,9 +1168,12 @@ i.drop-dot {
 .weather-time h4 {
   font-size: 0.95em;
 }
+
 .calgaman {
-  padding: 0em 0em 0em 0.5em;
-  width: 55%;
+  background: #fff;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 .weather {
   width: 44%;
@@ -1487,9 +1331,10 @@ ul li.plus-img img {
   float: left;
 }
 .calgaman {
-  padding: 0em 0em 0em 0em;
-  width: 50%;
-  float: right;
+  background: #fff;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 .weather-time h1 {
   font-size: 3em;
@@ -1716,9 +1561,10 @@ span.glyphicon.glyphicon-eye-open {
   margin: 0em auto 2em;
 }
 .calgaman {
-  margin: 0 auto;
-  width: 75%;
-  float: none;
+  background: #fff;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 .head-tags ul li {
   margin: 0% 2% 0% 0%;
@@ -1870,7 +1716,10 @@ ul.p_n-list li span.list-bar {
   margin: 0em auto 1em;
 }
 .calgaman {
-  width: 100%;
+  background: #fff;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 .radio-btn {
   padding: 0.8em;
