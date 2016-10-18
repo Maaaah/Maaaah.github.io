@@ -198,6 +198,14 @@ span.glyphicon.glyphicon-remove {
 .header-main {
   padding: 1em 0em 4em 0em;
 }
+
+--*/
+ul.bullets{
+	padding-left: 20px;
+	list-style-type: disc;
+
+}
+
 /*--pagenation start here--*/
 .pag-nations {
   margin: 2em 0em 0em 0em;

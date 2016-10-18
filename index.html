@@ -97,19 +97,21 @@ Software, Hardware, DSP" />
 				<li class="dropdown">
 					<a href="Services.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services<span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="ServiceResearch.html">Research            </a></li>
-						<li><a href="ServiceSoftware.html">Software Development</a></li>
-						<li><a href="ServiceHardware.html">Hardware Development</a></li>
+						<li><a href="#SoftwareDesignServices">Software Development</a></li>
+						<li><a href="#HardwareDesignServices">Hardware Development</a></li>
+						<li><a href="#ResearchServices">Research            </a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
 					<a href="Projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="ProjectHearing.html">Hearing Aids    </a></li>
+						<li><a href="ProjectHearing.html">Hearing Aids</a></li>
 						<li><a href="ProjectTricorder.html">XPrize Tricorder</a></li>
-						<li><a href="ProjectBlaid.html">Blind Assistant </a></li>
+						<li><a href="ProjectIoT.html">IoT Home Automation</a></li>
+						<li><a href="ProjectSpeakerPhone.html">Tablet Speaker Phone</a></li>
+						<li><a href="ProjectBlaid.html">Blind Assistant</a></li>
 					</ul>
-				</li>		
+				</li>
 				<li class="dropdown">
 					<a href="Partners.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Partners<span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
@@ -118,7 +120,7 @@ Software, Hardware, DSP" />
 						<li><a href="PartnerIndigo.html">Time Tiger</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#newsletter">Contact</a></li>
 			</ul>
 			<form class="navbar-form navbar-left" role="search">
 				<div class="form-group">
@@ -139,9 +141,66 @@ Software, Hardware, DSP" />
 	<div class="header-main">
 	  <div class="col-md-7 header-left">
 		 <div class="head-buttons">
-
 		    <div class="clearfix"> </div>
 			<!--header-left colum2 start here-->
+			<div class="newsletter" id="Wording">
+				<div class="newsletter-top">
+					<h2> TREL Labs </h2> performs all aspects of product development. 
+					We provide engineering services specializing in embedded hardware 
+					/ software and digital signal processing.
+					<br>
+					<div id="SoftwareDesignServices"><h3>Software design services:</h3></div>
+					<ul class="bullets">
+						<li>Embedded Software design (ARM Cortex M0, M3, M4; ARM A-7 to A-15; DSP)</li>
+						<li>Mobile Software design (Android, iOS)</li>
+						<li>Webservices (AWS, Google Cloud)</li>
+					</ul>
+					<br>					
+					<div id="HardwareDesignServices"><h3>Hardware design services:</h3></div>
+					<ul class="bullets">
+						<li>PCB Design and Layout</li>
+						<li>Analog Design</li>
+						<li>Signal Integrity Analysis</li>
+					</ul>
+					<br>					
+					<div id="ResearchServices"><h3>Research Services</h3></div>
+					<ul class="bullets">
+						<li>Machine Learning and Statistical Signal Processing research</li>
+						<li>Algorithm Development</li>
+						<li>Algorithm Implementation (Fixed Point, Cloud Services, optimized C)</li>
+					</ul>
+					<br>
+					<br>					
+					<h2>These are our past few projects:</h2>
+					<br>
+					<p><a href="http://www.smithsonianchannel.com/videos/the-10-million-race-to-invent-star-treks-tricorder/50740">
+					The X-Prize Medical Tricorder Project:</a></p>
+					<ul class="bullets">
+						<li>System Architecture</li>
+						<li>Hardware Digital and Analog Design</li>
+						<li>Embedded Software and DSP Algorithm Development</li>
+						<li>Android Mobile Development</li>
+						<li>AWS Cloud Services</li>
+					</ul>
+					<br>
+					<p><a href="https://www.youtube.com/watch?v=sNoPV0epfHA">
+					Helping the Blind Navigate the visual world:</a></p>
+					<ul class="bullets">
+						<li>Hardware debugging and Acoustic Design</li>
+						<li>Linux/Android BSP Development</li>
+						<li>Android Application Development</li>
+					</ul>
+					<br>
+					<p><a href="https://www.youtube.com/watch?v=mzIGKHyExGM">
+					Helping the Hard of Hearing Navigate the acoustic world:</a></p>
+					<ul class="bullets">
+						<li>Algorithm Simulation and Design</li>
+						<li>DSP implementation</li>
+						<li>Automated test development</li>
+					</ul>
+				</div>
+			</div>
+	
             <div class="head-colum2">
 				<div class="trav-respon-slid">
 					<div class="slider">
@@ -269,7 +328,7 @@ Software, Hardware, DSP" />
 			        </div>
             	</div>
                 <div class="clearfix"> </div>				
-			    <div class="newsletter">
+			    <div class="newsletter" id="newsletter">
 				    <div class="newsletter-top">
 					    <form>
 							<input type="text" placeholder="Name">
