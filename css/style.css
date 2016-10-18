@@ -657,11 +657,14 @@ ul.nav.navbar-nav {
 }
 
 .bridge-city {
-  background: url(../images/card.jpg)no-repeat;
+  background: #7BA4D9;
   min-height: 100px;
   background-size: cover;
   text-align:center;
-  padding:1em 0em;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;  
+  
 }
 .avari-info {
   text-align: center;
@@ -1366,7 +1369,9 @@ ul li.plus-img img {
   padding: 1em 0em;
 }
 .bridge-city {
-  padding: 1.5em 0em;
+  margin-top: 1.5em;
+  border-radius: 4px 4px 0px 0px;
+  padding: 1.3em 1.3em;
 }
 .message {
   float: left;
