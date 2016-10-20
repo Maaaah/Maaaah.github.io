@@ -335,10 +335,11 @@ Software, Hardware, DSP" />
 			<div class="clearfix"> </div>				
 			<div class="newsletter" id="newsletter">
 				<div class="newsletter-top">
-					<form>
-						<input type="text" placeholder="Name">
-						<input type="text" placeholder="Subject">
-						<textarea placeholder="Message" required=""></textarea>
+					<form id="emailUs" method="post" name="emailUs" action="https://formspree.io/info@trellabs.com" enctype="text/plain">
+						<input type="text" name="name" placeholder="Name">
+						<input type="text" name="email" placeholder="Email" required="">
+						<input type="text" name="subject" placeholder="Subject">
+						<textarea name="message" placeholder="Message" required=""></textarea>
 						<input type="submit" value="Send">
 					</form>
 				</div>
