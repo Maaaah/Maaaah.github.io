@@ -28,15 +28,28 @@ a:hover {
   padding: 2em 0em;
 }
 .logo {
-  text-align: center;
-  padding: 0em 0em 4em 0em;
+	text-align: center;
+	padding: 0em 0em 4em 0em;
+	display:inline;  
+    vertical-align:middle;	
+  
 }
 .logo h3 {
-    font-size: 2.5em;
+	font-size: 2.5em;
+	display:inline;
+    vertical-align:middle;	
 }
 .logo h3 a{
     color:#7BA4D9;
     text-decoration:none;
+    display:inline;
+    vertical-align:middle;		
+}
+.logo h4 {
+    color:#293a4a;
+    text-decoration:none;
+    display:inline;
+    vertical-align:middle;		
 }
 
 ul.bullets{
@@ -953,7 +966,7 @@ ul.callbacks_tabs.callbacks1_tabs,ul.callbacks_tabs.callbacks2_tabs {
     width: 100%;
     height: 310px;
     background-size: contain;
-	background-position: center;	
+    background-position: center;	
 }
 .slide-img1{
 	background: url(../raw/toyota-blaid-2.jpg) no-repeat ;
@@ -1342,7 +1355,9 @@ ul li.plus-img img {
   margin: 0em 0em 2em 0em;
 }
 .logo img {
-  width: 30%;
+	width: 30%;
+	display:inline;
+    vertical-align:middle;	
 }
 .top-nav ul li a {
   font-size: 0.8em;
@@ -1465,7 +1480,9 @@ ul.nav.navbar-nav {
     background-color: #002a5d;
 }
 .logo {
-    padding: 0em 0em 2em 0em;
+	padding: 0em 0em 2em 0em;
+	display:inline;
+    vertical-align:middle;	
 }
 }
 @media(max-width:667px){
@@ -1624,6 +1641,8 @@ span.glyphicon.glyphicon-remove {
 }
 .logo h3 {
     font-size: 2em;
+	display:inline;
+    vertical-align:middle;	
 }
 }
 @media(max-width:414px){
@@ -1693,10 +1712,15 @@ span.glyphicon.glyphicon-cog {
   width: 95%;
 }
 .logo img {
-  width: 45%;
+	width: 45%;
+	display:inline;
+    vertical-align:middle;	
+  
 }
 .logo {
-  padding: 0em 0em 1.5em 0em;
+	padding: 0em 0em 1.5em 0em;
+	display:inline;
+    vertical-align:middle;	
 }
 span.glyphicon.glyphicon-time {
   padding: 0.8em 1em;
@@ -1823,6 +1847,8 @@ li.item1, li.item2 {
 }
 .logo h3 {
     font-size: 1.8em;
+    display:inline;
+    vertical-align:middle;		
 }
 ul.p_n-list li a {
     padding: 0px 7px;
