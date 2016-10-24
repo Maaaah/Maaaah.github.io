@@ -8,16 +8,16 @@ $(function() {
     $('#project_hearing_aid').hide();
     $('#project_speakerphone').hide();
     $('#project_audio').hide();
-	
-    $('#matter').change(function(){
-        if($('#matter').val() == 'words_software') {
-            $('#words_software').show(); 
-		} else if($('#matter').val() == 'words_hardware') {
-            $('#words_hardware').show(); 			
-		} else if($('#matter').val() == 'words_research') {
-            $('#words_research').show(); 			
-        } else {
-            $('#words_main').show(); 
-        } 
-    });
+	window.localStorage.setItem('lastState', "words_overview");
 });
+
+$(function() {
+	$(".words_link").click(function() {
+		var id = $(this).attr("rel");
+		$('#'+id).slideToggle('slow');
+		id = window.localStorage.getItem('lastState');
+		$('#'+id).slideToggle('slow');
+		window.localStorage.setItem('lastState', id);
+	});
+});
+
