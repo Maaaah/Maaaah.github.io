@@ -13,10 +13,10 @@ $(function() {
 
 $(function() {
 	$(".words_link").click(function() {
-		var id = $(this).attr("rel");
-		$('#'+id).slideToggle('slow');
-		id = window.localStorage.getItem('lastState');
-		$('#'+id).slideToggle('slow');
+		var id = window.localStorage.getItem('lastState');
+		$('#'+id).hide('slow');	
+		id = $(this).attr("rel");
+		$('#'+id).show('slow');
 		window.localStorage.setItem('lastState', id);
 	});
 });
