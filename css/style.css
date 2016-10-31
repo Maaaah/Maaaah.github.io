@@ -542,6 +542,7 @@ div#bs-example-navbar-collapse-1 {
 }
 ul.dropdown-menu li {
   border-right: none !important;
+  width: 100%;
 }
 .top-nav ul {
   padding: 0em;
@@ -674,7 +675,6 @@ ul.nav.navbar-nav {
   min-height: 100px;
   background-size: cover;
   text-align:center;
-  margin-top: 1.5em;
   border-radius: 4px 4px 0px 0px;
   padding: 1.3em 1.3em;  
   
@@ -744,12 +744,18 @@ span.glyphicon.glyphicon-comment {
 /*--news letter strat here--*/
 .newsletter {
   background: #fff;
-  margin-top: 1.5em;
   border-radius: 4px 4px 0px 0px;
 }
 .newsletter-top {
   padding: 1.3em 1.3em;
 }
+.newsletter-top h2 {
+  padding: 0.5em 0.5em;
+  background: #7BA4D9;
+  color: #fff;
+}
+
+
 .newsletter-top input[type="text"] {
   padding: 0.5em 0.5em;
   font-size: 0.83em;
