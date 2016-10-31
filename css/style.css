@@ -8,11 +8,20 @@ h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
-html, body{
+html {
   font-family: 'Montserrat', sans-serif;
    font-size: 100%;
    background:#e6e6e6; 
 }
+
+body {
+	background-image: url(../raw/White-Wallpaper-62E.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 a {
   text-decoration: none;
 }
