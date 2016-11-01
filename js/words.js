@@ -8,6 +8,7 @@ $(function() {
     $('#project_hearing_aid').hide();
     $('#project_speakerphone').hide();
     $('#project_audio').hide();
+    $('#project_iot').hide();	
 	$('#project_blaid_image').hide();
 	$('#project_blaid_snapshot').hide();
 	$('#project_audio_image').hide();
@@ -16,6 +17,8 @@ $(function() {
 	$('#project_hearing_aid_snapshot').hide();
 	$('#project_speakerphone_image').hide();
 	$('#project_speakerphone_snapshot').hide();
+	$('#project_iot_image').hide();
+	$('#project_iot_snapshot').hide();	
 	
 	window.localStorage.setItem('lastState', "words_overview");
 	window.localStorage.setItem('lastImage', "project_tricorder");

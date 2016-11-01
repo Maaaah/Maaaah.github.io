@@ -1011,7 +1011,13 @@ ul.callbacks_tabs.callbacks1_tabs,ul.callbacks_tabs.callbacks2_tabs {
     background-size: contain;
 	background-position: center;
 }
-
+.slide-img5{
+	background: url(../raw/iot_audio.png) no-repeat ;
+    width: 100%;
+    height: 310px;
+    background-size: contain;
+	background-position: center;
+}
 /*--sliderend here--*/
 /*--footer start here--*/
 .copyright {
@@ -1868,7 +1874,7 @@ li.item1, li.item2 {
 ul.p_n-list li a {
     padding: 0px 7px;
 }
-.slide-img,.slide-img1,.slide-img2,.slide-img3,.slide-img4 {
+.slide-img,.slide-img1,.slide-img2,.slide-img3,.slide-img4,.slide-img5 {
     height:200px;
 }
 .copyright {
