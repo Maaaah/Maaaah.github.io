@@ -813,6 +813,11 @@ span.glyphicon.glyphicon-comment {
   background: #7BA4D9;
   border-top:3px solid #002a5a;
 }
+.newsletter-address {
+  background: #7BA4D9;
+  padding: 0.4em;
+  border-top:3px solid #002a5a;
+}
 .message-text h4 {
   font-size: 0.85em;
   color: #fff;
